@@ -20,10 +20,10 @@ COPY . .
 RUN chown -R appuser:appgroup /app
 
 # Exponer puerto
-EXPOSE 6969
+EXPOSE 8000
 
 # Variables de entorno
-ENV PORT=6969
+ENV PORT=8000
 ENV FLASK_ENV=production
 ENV PYTHONUNBUFFERED=1
 
